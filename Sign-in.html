@@ -2,25 +2,43 @@
 <html lang="en">
 <head>
        <title>LOGIN</title>
+       <!-- adding css to index nav -->
+    <style> 
+        #nav { 
+            background-color: red; 
+            text-align: center;
+        }
+        #nav a {
+            color: white;
+            font-size: 15px;
+            display: inline-block;
+            padding: 0 20px;
+        }
+     /* adding css to classes */
+        .blue { color: blue; font-size: 25px;}
+        /* adding css to p tag with class blue */
+        p.blue { color: green; font-size: 25px;}
+        .yellow { background-color: yellow; font-size: 20px;}
+    </style>
 </head>
 <body>
-    <--NAVIGATION BAR-->
-<DIV class="nav">
+    <!--NAVIGATION BAR -->
+<DIV id="nav">
     <a href="index.html">HOME</a>
     <a href="Sign-in.html">Sign In</a>
     <a href="Sign-up.html">Sign Up</a>
 </DIV> 
 <div>
 </div>
-    <h1>LOGIN TO YOUR ACCOUNT</h1><br>
-    <p>NAME</p>
-    <input TYPE="text" placeholder="Username">
-    <p>PASSWORD</p>
-    <input TYPE="password" placeholder="Password">
+    <h1 class="blue">LOGIN TO YOUR ACCOUNT</h1><br>
+    <p class="blue">NAME</p>
+    <input class="yellow" type="text" placeholder="Username">
+    <p class="blue">PASSWORD</p>
+    <input class="yellow" type="password" placeholder="Password">
     <button type="submit">Login</button>
     
 </div><br><br>
-<--FOOTER-->
+<!--FOOTER-->
 <div class="footer">
     <p>&copy; 2024 QA Cloth Store. All rights reserved.<br>
     CONTACT US: info@qaclothstore.com | +92 300 1234567</p>
